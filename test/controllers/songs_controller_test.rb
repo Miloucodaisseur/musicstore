@@ -1,14 +1,11 @@
 require 'test_helper'
 
 class SongsControllerTest < ActionController::TestCase
-  test "should get index" do
+  test "index should have content" do
     get :index
+    print("RESPONSE: #{response.body}")
+    index = response.body.index("MyString")
     assert_response :success
+    assert_not_equal(-1, index, "Page should contain song")
   end
-
-  test "should get show" do
-    get :show
-    assert_response :success
-  end
-
 end

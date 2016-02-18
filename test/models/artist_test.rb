@@ -5,4 +5,13 @@ class ArtistTest < ActiveSupport::TestCase
   artist = Artist.new( first_name: "Robbie", last_name: "Williams", country: "UK")
   assert artist.save
   end
+
+  test "should save empty" do
+    artist = Artist.new()
+    assert artist.save
+  end
+
+  test "silly test should pass" do
+    assert_not false
+  end
 end

@@ -1,13 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
-  genre: MyString
-  duration: 1
-  references: MyString
+  title: Millennium
+  genre: Pop
+  duration: 220
 
 two:
-  title: MyString
-  genre: MyString
-  duration: 1
-  references: MyString
+  title: Angels
+  genre: Pop
+  duration: 228

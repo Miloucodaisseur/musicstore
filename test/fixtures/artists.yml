@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  last_name: MyString
-  first_name: MyString
-  country: MyString
+  last_name: Williams
+  first_name: Robbie
+  country: UK
 
 two:
-  last_name: MyString
-  first_name: MyString
-  country: MyString
+  last_name: Spears
+  first_name: Britney
+  country: US
